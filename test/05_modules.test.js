@@ -7,7 +7,7 @@ import Mathy from '../common/Mathy';
 import {expect} from 'chai';
 
 describe('ES6 Modules', () => {
-  it('can import Mathy', () => {
+  it.skip('can import Mathy', () => {
 
     // I DID THIS ONE FOR YOU!
     expect(Mathy.sqrt).to.exist;
