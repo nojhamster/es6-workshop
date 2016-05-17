@@ -31,7 +31,8 @@ describe('Classes', () => {
 
   it.skip('can have instance methods', ()=> {
 
-    //Create an Animal class, pass in the name to the constructor, and add a sayName function to the class definition as a non-static function
+    // Create an Animal class, pass in the name to the constructor,
+    // and add a sayName function to the class definition as a non-static function
 
 
     let animal = new Animal();

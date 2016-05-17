@@ -6,8 +6,7 @@ describe('WEAKMAPS', () => {
     let key = {name: 'Aaron'};
     let value = {twitter: '@js_dev', gplus: '+AaronFrost'};
 
-    // Create a new WeakMap called 'myMap'
-    // Add a new entry. Use key as the key and values as the value
+    // do something here
 
 
     expect(myMap.has(key)).to.be.true;

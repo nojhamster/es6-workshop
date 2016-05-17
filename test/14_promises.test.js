@@ -48,7 +48,7 @@ describe(`Promises`, () => {
     // or rejected by calling the corresponding function.
     return new Promise((resolve, reject) => {
       // Do something asynchonous. Could be AJAX, using a timeout here.
-      setTimeout(() => { 
+      setTimeout(() => {
         if(ripeness === 'ripe') {
           resolve('ripe apple');
         } else if(ripeness === 'unripe') {
